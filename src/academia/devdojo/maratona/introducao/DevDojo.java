@@ -1,16 +1,16 @@
-package academia.devdojo.maratona.introducao;
+ package academia.devdojo.maratona.introducao;
 
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class DevDojo {
 
     static Scanner ler = new Scanner(System.in);
 
     static void main(String[] args) {
 
-        // && (AND) || (or) !
+        // && (AND) || (or) ! (negacao)
 
         int idade = 0;
         boolean EntradaValida = false;
@@ -39,8 +39,9 @@ public class Main {
 
 
 
-ler.close();
-
-        }
+        ler.close();
 
     }
+
+}
+
