@@ -5,6 +5,7 @@ public class Endereco {
     private String cep;
 
 
+  
 
     public String getRua() {
         return rua;
@@ -21,4 +22,5 @@ public class Endereco {
     public void setCep(String cep) {
         this.cep = cep;
     }
+
 }

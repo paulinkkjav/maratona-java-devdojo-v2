@@ -1,10 +1,25 @@
 package academia.devdojo.maratona.javacore.HHeranca.dominio;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
+
+    {
+        System.out.println("OI1 (Pessoa)");
+    }
+    static {
+        System.out.println("OI2 (Pessoa)");
+    }
+    public Pessoa(String nome) {
+        this.nome = nome;
+        System.out.println("OI3 (Pessoa)");
+    }
+    public Pessoa(String nome, String cpf){
+//        this(nome);
+//        this.cpf = cpf;
+    }
 
     public void imprime() {
         System.out.println("Nome: " + this.nome);

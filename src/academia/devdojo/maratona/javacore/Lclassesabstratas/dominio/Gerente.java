@@ -1,4 +1,20 @@
 package academia.devdojo.maratona.javacore.Lclassesabstratas.dominio;
 
-public class Gerente {
+public class Gerente extends Funcionario {
+    public Gerente(String nome, double salario) {
+        super(nome, salario);
+    }
+
+    @Override
+    public void bonusSalario() {
+        this.salario = this.salario + this.salario * 0.16;
+    }
+
+    @Override
+    public String toString() {
+        return "Gerente{" +
+                "nome='" + nome + '\'' +
+                ", salario=" + salario +
+                '}';
+    }
 }
