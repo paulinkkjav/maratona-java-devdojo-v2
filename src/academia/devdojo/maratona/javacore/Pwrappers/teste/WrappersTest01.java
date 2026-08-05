@@ -24,7 +24,7 @@ public class WrappersTest01 {
 
         intP = intW; // - > Unboxing -> de tipo wrapper pra tipo primitivo
         Integer intW2 = Integer.parseInt("0");
-        Boolean booleanW2 = Boolean.parseBoolean("trUE");
+        Boolean booleanW2 = Boolean.parseBoolean("TrUe");
         System.out.println(booleanW2);
         System.out.println(Character.getNumericValue('8') + 1);
         System.out.println(Character.isDigit('8'));
